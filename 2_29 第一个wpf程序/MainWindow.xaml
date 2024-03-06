@@ -1,0 +1,46 @@
+﻿<Window x:Class="第一个wpf程序.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:第一个wpf程序"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="欢迎程序"
+        Width="800"
+        Height="450"
+        mc:Ignorable="d">
+    <Grid Background="#FFB9A4A4">
+
+        <Button x:Name="fan1"
+                Width="152"
+                Height="46"
+                Margin="118,98,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="#FFF9E6E6"
+                Click="Button_Click"
+                Content="开"
+                FontSize="20"
+                Foreground="#FF23B55B" />
+        <Button x:Name="fan2"
+                Width="152"
+                Height="46"
+                Margin="118,274,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="#FFF9E6E6"
+                Click="fan2_Click"
+                Content="关"
+                FontSize="20"
+                Foreground="#FFFF0404" />
+        <Label x:Name="lable"
+               Width="72"
+               Height="37"
+               Margin="505,0,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Center"
+               Content="开\关"
+               FontSize="21"
+               Foreground="#FF80F782" />
+
+    </Grid>
+</Window>
